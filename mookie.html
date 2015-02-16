@@ -1,0 +1,39 @@
+<head>
+  <title>Charles Berman - Application Developer and Designer - Detroit, MI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href='http://fonts.googleapis.com/css?family=Raleway:900,700,100' rel='stylesheet' type='text/css'>
+</head>
+<template name="appBody">
+  <div class="container">
+    <div id="maindiv" class="{{isLoading}} ">
+    <nav>
+        <ul>
+          <li><a href="#section-home">Home</a></li>
+          <li><a href="#section-about">About Me</a></li>
+          <li><a href="#section-work">Work</a></li>
+          <li><a href="#section-skills">Skills</a></li>
+          <li><a href="#section-contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    </div>
+    <section id="section-home">
+      {{>home}}
+    </section>
+    <section id="section-about" class="section-red">
+      {{>about}}
+    </section>
+
+    <section id="section-work">
+      {{>work}}
+    </section>
+
+    <section id="section-skills" class="section-red">
+    {{>skills}} 
+   </section>
+
+    <section id="section-contact">
+      {{>contact}}
+    </section>
+  </div>
+</template>
