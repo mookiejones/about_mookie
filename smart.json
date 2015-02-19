@@ -1,5 +1,6 @@
 {
   "packages": {
-    "session-extended-api": {}
+    "session-extended-api": {},
+    "isinviewport":{}
   }
 }
